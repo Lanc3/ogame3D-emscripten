@@ -1,0 +1,33 @@
+{
+  "name": "ogame-new",
+  "version": "1.0.0",
+  "description": "A WebAssembly project, set up with task runners, for C++",
+  "scripts": {
+    "build": "rm -rf build && mkdir build && cd build && cmake -D\"CMAKE_MAKE_PROGRAM:PATH=C:/MinGW/msys/1.0/bin/make.exe\" ..\\Source -G\"MSYS Makefiles\" .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanRuta/webassembly-workflow.git"
+  },
+  "keywords": [],
+  "main": "main.cpp",
+  "author": "Aaron Keating",
+  "license": "MIT",
+  "directories": {},
+  "bugs": {
+    "url": "https://github.com/DanRuta/webassembly-workflow/issues"
+  },
+  "engines": {
+    "node": ">= 8.4.0"
+  },
+  "homepage": "https://github.com/DanRuta/webassembly-workflow#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-uglify-es": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^3.0.0"
+  }
+}
