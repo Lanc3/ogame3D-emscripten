@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/DanRuta/webassembly-workflow#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.5.3",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
